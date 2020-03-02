@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "adaptstoreacct"
+    },
+    "vmName": {
+      "value": "res-adapt-ubuntu"
+    },
+    "adminUsername": {
+      "value": "adaptuser"
+    },
+    "dnsNameForPublicIP": {
+      "value": "hgemadapt1"
+    },
+    "location": {
+      "value": "northeurope"
+    },
+     "departmentName": {
+      "value": "LMS"
+    },
+     "environmentName": {
+      "value": "Research"
+    },
+    "applicationName": {
+      "value": "Adapt Authoring"
+    },
+    "createdBy": {
+      "value": "Matt Davis"
+    }
+  }
+}

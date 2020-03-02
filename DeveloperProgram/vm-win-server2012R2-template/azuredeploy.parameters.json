@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "matt"
+    },
+    "vmName": {
+      "value": "dev-md-ftp-1"
+    },
+    "dnsLabelPrefix": {
+      "value": "dev-md-ftp-1"
+    },
+    "windowsOSVersion": {
+      "value": "2012-R2-Datacenter"
+    },
+    "virtualNetworkName": {
+      "value": "Dev-VNET"
+    },
+    "internalIPAddress": {
+      "value": "192.168.10.10"
+    },
+    "storageAccountName": {
+        "value": "devwinserdsa24643543"
+    },
+    "environmentName": {
+      "value": "Dev"
+    },
+    "departmentName": {
+      "value": "IT"
+    },
+    "createdBy": {
+      "value": "Matt Davis"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "mdwinwed1suser"
+    },
+    "vmName": {
+      "value": "test-md-web-1"
+    },
+    "dnsLabelPrefix": {
+      "value": "test-win-web-1"
+    },
+    "windowsOSVersion": {
+      "value": "2012-R2-Datacenter"
+    },
+    "internalIPAddress": {
+      "value": "192.168.5.2"
+    },
+    "storageAccountName": {
+        "value": "resmattdavisstoreacct"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "administratorLogin": {
+      "value": "matt"
+    },
+    "administratorLoginPassword": {
+      "value": null
+    },
+    "databaseName": {
+      "value": "app-prod-md"
+    },
+    "location": {
+      "value": "UK South"
+    }
+  }
+}

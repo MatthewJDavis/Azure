@@ -1,0 +1,28 @@
+﻿#names in Azure for resources
+Test-AzureName
+
+#subscription details
+Get-AzureSubscription | sort SubscriptionName | select SubscriptionName
+
+#resource groups
+Get-AzureRmResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
+
+#storage accounts
+Get-AzureRmStorageAccount | Sort StorageAccountName | Select StorageAccountName
+
+#availability sets
+Get-AzureRmAvailabilitySet –ResourceGroupName $rgName | Sort Name | Select Name
+
+#Virtual networks
+$rgName="PS-Test-RG"
+Get-AzureRmVirtualNetwork -ResourceGroupName $rgName | Sort Name | Select Name
+
+#Image offers
+$locName="North Europe"
+Get-AzureRMVMImagePublisher -Location $locName | Select PublisherName
+
+$pubName="<publisher>"
+Get-AzureRMVMImageOffer -Location $locName -Publisher $pubName | Select Offer
+
+$offerName="<offer>"
+Get-AzureRMVMImageSku -Location $locName -Publisher $pubName -Offer $offerName | Select Skus

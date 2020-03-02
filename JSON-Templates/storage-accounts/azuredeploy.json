@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "defaultValue": "storacct",
+      "type": "String"
+    },
+    "envTag": {
+      "defaultValue": "test",
+      "type": "String"
+    },
+    "proTag": {
+      "defaultValue": "app",
+      "type": "String"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+      },
+      "kind": "Storage",
+      "name": "[parameters('storageAccountName')]",
+      "apiVersion": "2016-01-01",
+      "location": "[resourceGroup().location]",
+      "tags": {
+        "Environment": "production",
+        "Project": "app"
+      },
+      "properties": {},
+      "resources": [],
+      "dependsOn": []
+    }
+  ]
+}

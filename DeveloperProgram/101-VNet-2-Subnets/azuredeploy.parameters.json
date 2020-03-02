@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "North Europe"
+    },
+    "environmentName": {
+      "value": "Dev"
+    },
+    "departmentName": {
+      "value": "IT"
+    },
+    "vnetName": {
+      "value": "Dev-Network"
+    },
+    "vnetAddressPrefix": {
+      "value": "192.168.0.0/16"
+    },
+    "subnet1Name": {
+      "value": "FrontEnd"
+    },
+    "subnet1Prefix": {
+      "value": "192.168.10.0/24"
+    },
+    "subnet2Name": {
+      "value": "BackEnd"
+    },
+    "subnet2Prefix": {
+      "value": "192.168.11.0/24"
+    }
+  }
+}

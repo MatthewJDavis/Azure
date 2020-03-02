@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminPassword": {
+      "value": null
+    },
+    "virtualMachineName": {
+      "value": "matt-dev-1"
+    },
+    "networkCardName": {
+      "value": "matt-dev-1-nic"
+    },
+    "networkSecurityGroupName": {
+      "value": "matt-dev-1-nsg"
+    },
+    "networkSecurityGroupAllowIP": {
+      "value": null
+    },
+    "publicIpAddress": {
+      "value": "matt-dev-1-ip"
+    },
+    "domainName": {
+      "value": "matt-dev-1"
+    },
+    "virtualNetworkName": {
+      "value": "matt-dev-1-vnet"
+    },
+    "storageAccountNameDiagDisk": {
+      "value": "sqlvmdiagstor324"
+    },
+    "storageAccountNameSystemDisk": {
+      "value": "sqlvmsystemdisks324"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Name": "Container Instance Container Group Manager",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "Allow full access to the Azure Container Instance container group resouces",
+  "Actions": [
+    "Microsoft.ContainerInstance/containerGroups/*"
+  ],
+  "NotActions": [
+  ],
+  "AssignableScopes": [
+    "/subscriptions/00000000-0000-0000-0000-000000000000"
+  ]
+}

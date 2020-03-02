@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Deploy a CentOS Linux VM in North Europe",
+  "description": "This template allows you to deploy a CentOS Linux VM using the latest patched version. This will deploy in North Europe on a A1 Standard VM Size.",
+  "summary": "This template takes a minimum amount of parameters and deploys a Linux VM, using the latest patched version.",
+  "githubUsername": "matthewjdavis",
+  "dateUpdated": "2016-01-02"
+}

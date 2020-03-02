@@ -1,0 +1,4 @@
+{
+  "WebhookName": "service-host-webhook",
+  "RequestBody": "{\"Service\": \"xbgm\",\"Host\": \"vm01\" }"
+}

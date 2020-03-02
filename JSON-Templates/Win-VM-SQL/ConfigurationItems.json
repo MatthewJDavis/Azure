@@ -1,0 +1,25 @@
+﻿{ "ConfigurationItems": [
+	{ "VirtualMachine": [
+        { "Name": "matt-dev-1" },
+        { "ResourceGroupName": "matt-dev-vm-rg"},
+        { "Location": "uksouth" }
+	]},
+	{ "NetworkSecurityGroup": [
+        { "Name": "matt-dev-1-nsg"},
+        { "ResourceGroupName": "matt-dev-vm-rg"}
+	]},
+	{ "ActiveDirectory": [
+		{ "Users": [
+
+		]},
+		{ "Groups": [
+
+		]},
+		{ "OrganizationalUnits": [
+			
+		]}
+	]},
+	{ "CSVFile": [
+
+	]}
+]}
